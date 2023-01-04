@@ -4,7 +4,7 @@
     "_include": "/_group/RichTextElementsTiny.json"
   },
   "image": {
-    "_template": "/image/Image.hbs"
+    "_include": "/image/Image.json"
   },
   "schedule": {
     "_include": "/_group/RichTextElementsTiny.json"

@@ -12,7 +12,6 @@ import com.psddev.cms.view.ViewModel;
 import com.psddev.styleguide.historicsite.HistoricSitePageView;
 import com.psddev.styleguide.historicsite.HistoricSitePageViewAdditionalInformationField;
 import com.psddev.styleguide.historicsite.HistoricSitePageViewBodyField;
-import com.psddev.styleguide.historicsite.HistoricSitePageViewHistoricSitePromoField;
 import com.psddev.styleguide.historicsite.HistoricSitePageViewImageGalleryField;
 import com.psddev.styleguide.historicsite.HistoricSitePageViewInfoBoxField;
 import com.psddev.styleguide.historicsite.HistoricSitePageViewIntroductionField;
@@ -72,11 +71,6 @@ public class HistoricSiteViewModel extends ViewModel<HistoricSitePage> implement
                 model,
                 HistoricSitePage::getBody,
                 e -> createView(HistoricSitePageViewBodyField.class, e));
-    }
-
-    @Override
-    public Iterable<? extends HistoricSitePageViewHistoricSitePromoField> getHistoricSitePromo() {
-        return (Iterable<? extends HistoricSitePageViewHistoricSitePromoField>) model.getHistoricSitePromo();
     }
 
     @Override
