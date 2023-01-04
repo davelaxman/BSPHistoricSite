@@ -1,0 +1,12 @@
+{
+  "_template": "/infobox/infobox.hbs",
+
+  "title": "{{words([2,4])}}",
+  "image": {
+    "_include": "/image/Image.json"
+  },
+  "schedule": "{{html('<b>Schedule</b><br /><br /><i>some schedule</i>')}}",
+  "physicalAddress": "{{html('<b>Physical Address</b><br /></br />')}}{{words([5,8])}}",
+  "contact": "{{html('<b>Contact</b><br/ ><br />')}}{{words([5,8])}}",
+  "follow": "Follow"
+}

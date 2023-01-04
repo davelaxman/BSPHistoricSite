@@ -151,6 +151,11 @@ public class GalleryPageViewModel extends AbstractContentPageViewModel<Gallery> 
     }
 
     @Override
+    public CharSequence getGalleryPageStyle() {
+        return null;
+    }
+
+    @Override
     public Iterable<? extends GalleryPageViewPaginationField> getPagination() {
         ImageItemStream itemStream = model.getItemStream();
 

@@ -1,0 +1,13 @@
+{
+  "_template": "/historicsite/promo/HistoricSitePromo.hbs",
+  "title": "Historic Site",
+  "social": {
+    "_include": "/social/SocialBar.json"
+  },
+  "media": {
+    "_template": "/image/Image.hbs",
+    "image": {
+      "_image": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_template": "Infobox.hbs",
+  "title": {
+    "_include": "/_group/RichTextElementsTiny.json"
+  },
+  "image": {
+    "_template": "/image/Image.hbs"
+  },
+  "schedule": {
+    "_include": "/_group/RichTextElementsTiny.json"
+  },
+  "physicalAddress": {
+    "_include": "/_group/RichTextElementsSmall.json"
+  },
+  "contact": {
+    "_include": "/_group/RichTextElementsTiny.json"
+  },
+  "follow": {
+    "_include": "/_group/RichTextElementsSmall.json"
+  }
+
+
+}

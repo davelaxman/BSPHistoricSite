@@ -1,0 +1,29 @@
+<div class="Infobox">
+
+    {{#with title}}
+        <h4 class="Infobox-title">{{this}}</h4>
+    {{/with}}
+
+    {{#with image}}
+        <div class="Infobox-image">
+            {{#set imageSize="medium"}}
+                {{this}}
+            {{/set}}
+        </div>
+    {{/with}}
+    <div class="Infobox-textWrapper>">
+        {{#with schedule}}
+            <p class="Infobox-p">{{this}}</p>
+        {{/with}}
+        {{#with physicalAddress}}
+            <p class="Infobox-p">{{this}}</p>
+        {{/with}}
+        {{#with contact}}
+            <p class="Infobox-p">{{this}}</p>
+        {{/with}}
+        {{#with follow}}
+            <p class="Infobox-p">{{this}}</p>
+        {{/with}}
+    </div>
+
+</div>

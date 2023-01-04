@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="HistoricSitePage" {{include "/page/Page-htmlAttributes.hbs" this}}>
+{{include "/page/Page-head.hbs" this}}
+
+<body class="Page-body">
+{{include "/page/Page-header.hbs" this}}
+
+<div class="Page-content">
+    <div class="Page-twoColumn">
+        <main class="Page-main">
+            {{#with introduction}}
+                <div>{{this}}</div>
+            {{/with}}
+        </main>
+        {{#with infobox}}
+            <aside class="Page-aside">
+                {{this}}
+            </aside>
+        {{/with}}
+    </div>
+</div>
+
+{{include "/page/Page-footer.hbs" this}}
+
+</body>
+</html>

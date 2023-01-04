@@ -1,0 +1,16 @@
+{
+  "_template": "HelloModule.hbs",
+
+  "title": {
+    "_include": "/_group/RichTextElementsTiny.json"
+  },
+  "profilePicture": {
+    "_template": "/image/Image.hbs"
+  },
+  "firstName": "",
+  "lastName": "",
+
+  "about": {
+    "_include": "/_group/RichTextElementsLarge.json"
+  }
+}

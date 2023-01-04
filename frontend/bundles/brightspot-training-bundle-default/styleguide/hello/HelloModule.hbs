@@ -1,0 +1,30 @@
+<div class="HelloModule" data-module>
+{{#with title}}
+    <div class="HelloModule-title">{{this}}</div>
+{{/with}}
+
+<div class="HelloModule-meta">
+    {{#with firstName}}
+        <div class="HelloModule-firstName"><span>{{this}}:</span> {{this}}</div>
+    {{/with}}
+    {{#with lastName}}
+        <div class="RecipeModule-firstTime"><span>{{this}}:</span> {{this}}</div>
+    {{/with}}
+
+
+    {{#with profilePicture}}
+        <div class="HelloModule-profilePicture">
+            {{#set imageSize="medium"}}
+                {{this}}
+            {{/set}}
+        </div>
+    {{/with}}
+</div>
+
+{{#with about}}
+    <div class="HelloModule-about RichTextBody">
+        {{this}}
+    </div>
+{{/with}}
+
+</div>

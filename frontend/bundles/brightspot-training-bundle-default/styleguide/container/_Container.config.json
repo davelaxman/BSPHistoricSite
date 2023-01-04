@@ -1,5 +1,16 @@
 {
   "styles": {
+    "/container/ReadWidthColumnContainer.hbs": {
+      "fields": ["showContainerTitle"],
+      "templates": [
+        {
+          "displayName": "Read Width Column Container",
+          "example": "/container/ReadWidthColumnContainer.json",
+          "height": 768,
+          "width": 1024
+        }
+      ]
+    },
     "/container/OneColumnContainer.hbs": {
       "fields": ["showContainerTitle"],
       "templates": [

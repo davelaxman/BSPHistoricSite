@@ -1,0 +1,30 @@
+{
+  "_wrapper": false,
+  "_include": "/page/ContentPage.json",
+  "_template": "HistoricSitePage.hbs",
+  "name": "Historic Site",
+  "historicSitePromo": {
+    "_include": "/historicsite/promo/HistoricSitePromo.json"
+  },
+  "infoBox": {
+    "_include": "/infobox/Infobox.json"
+  },
+  "introduction": {
+    "_include": "/_group/RichTextElementsSmall.json"
+  },
+  "imageGallery": [
+    {
+      "_include": "/carousel/Carousel.json",
+      "_repeat": 10
+    }
+  ],
+  "body": {
+    "_include": "/_group/RichTextElementsMedium.json"
+  },
+  "additionalInformation": [
+    {
+    "_include": "/page/list/PageList.json"
+    }
+  ],
+  "_hidden": true
+}
