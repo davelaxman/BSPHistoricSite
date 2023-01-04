@@ -46,8 +46,6 @@ public class HistoricSitePage extends Content implements
     @Indexed
     @Required
     private String name;
-    @Required
-    private HistoricSitePromo historicSitePromo;
 
     @Required
     private Infobox infobox;
@@ -68,14 +66,6 @@ public class HistoricSitePage extends Content implements
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public HistoricSitePromo getHistoricSitePromo() {
-        return historicSitePromo;
-    }
-
-    public void setHistoricSitePromo(HistoricSitePromo historicSitePromo) {
-        this.historicSitePromo = historicSitePromo;
     }
 
     @Override

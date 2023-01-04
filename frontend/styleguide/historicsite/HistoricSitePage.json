@@ -3,9 +3,6 @@
   "_include": "/page/ContentPage.json",
   "_template": "HistoricSitePage.hbs",
   "name": "Historic Site",
-  "historicSitePromo": {
-    "_include": "/historicsite/promo/HistoricSitePromo.json"
-  },
   "infoBox": {
     "_include": "/infobox/Infobox.json"
   },

@@ -1,7 +1,7 @@
 {
   "_include": "/page/Page.json",
-  "_template": "/historicsite/HistoricSitePage.hbs",
-  "infobox": {
+  "_template": "HistoricSitePage.hbs",
+  "infoBox": {
     "_include": "/infobox/Infobox.json"
   }
 }

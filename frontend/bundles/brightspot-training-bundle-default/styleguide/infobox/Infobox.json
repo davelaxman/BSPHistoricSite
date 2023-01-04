@@ -1,5 +1,5 @@
 {
-  "_template": "/infobox/infobox.hbs",
+  "_template": "Infobox.hbs",
 
   "title": "{{words([2,4])}}",
   "image": {
